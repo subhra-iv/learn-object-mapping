@@ -1,0 +1,7 @@
+server:
+  port: 9001
+
+spring:
+  jackson:
+    deserialization:
+      read-unknown-enum-values-using-default-value: true
